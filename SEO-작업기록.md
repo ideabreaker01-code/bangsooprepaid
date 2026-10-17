@@ -1,6 +1,6 @@
 # 독립 페이지·SEO 작업 기록 (2026-10-17)
 
-현재 로컬 적용 완료. 실제 bangsuphone.kr 배포 및 검색엔진 제출은 하지 않았습니다.
+2026-10-18: Vercel 임시 운영 주소 https://bangsuphone.vercel.app 에 배포 완료. 기존 bangsuphone.kr 도메인 전환 및 검색엔진 제출은 아직 수행하지 않았습니다.
 
 | URL | 주요 목적 |
 | --- | --- |
