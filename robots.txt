@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /.local-backups/
+
+Sitemap: https://bangsuphone.kr/sitemap.xml

@@ -1,0 +1,17 @@
+.DS_Store
+.local-backups/
+.vercel/
+node_modules/
+public/
+.env
+.env.*
+*.log
+__pycache__/
+/assets/concept-v2/*preview*
+/assets/concept-v2/*desktop.jpg
+/assets/concept-v2/*mobile.jpg
+/assets/concept-v2/mobile-certificates.jpg
+/assets/concept-v2/usim-store*.jpg
+/*.png
+/*.jpg
+/*.jpeg
