@@ -34,8 +34,10 @@ node scripts/build.mjs
 
 `vercel.json`에 빌드 명령, `public` 출력 폴더, 확장자 없는 URL 처리가 지정되어 있습니다. 상업용 사이트는 Vercel Pro 이상 팀이 필요합니다.
 
-계정과 대상 팀·프로젝트를 확인한 뒤 CLI로 프로젝트를 연결하고 GitHub 저장소를 연동합니다. 운영 브랜치에 push하면 Git 연동으로 자동 배포합니다. 도메인 DNS 전환 전에는 Vercel URL에서 페이지 직접 접근, 신청 링크, 모바일 화면을 검증합니다.
+연결된 GitHub 저장소: https://github.com/ideabreaker01-code/bangsooprepaid
 
-`bangsuphone.kr`을 대표 주소로 사용하는 canonical과 sitemap이 설정되어 있습니다. Vercel 이전 후에도 같은 주소와 페이지 경로를 유지합니다. Cloudflare의 기존 사이트와 DNS는 별도 전환 전까지 그대로 유지합니다.
+Vercel 프로젝트: ideabreaker01-5070/bangsuphone. 운영 브랜치 `main`에 push하면 Git 연동으로 자동 빌드·배포되어 https://bangsuphone.kr 에 반영됩니다. 다른 브랜치의 변경은 미리보기 배포로 검토할 수 있습니다.
+
+`bangsuphone.kr`을 대표 주소로 사용하는 canonical과 sitemap이 설정되어 있습니다. Vercel 이전 후에도 같은 주소와 페이지 경로를 유지합니다. DNS는 Cloudflare에서 관리하며 웹사이트는 Vercel에서 제공합니다. www.bangsuphone.kr은 대표 주소 bangsuphone.kr로 영구 이동합니다.
 
 SEO 상세 내역 및 참고 출처는 `SEO-작업기록.md`에 있습니다. 요금제의 마지막 확인일은 2026.10.09이며, 실제 개통 조건은 공식 신청 화면에서 확인합니다.

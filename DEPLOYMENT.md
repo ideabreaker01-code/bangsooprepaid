@@ -14,7 +14,10 @@
 - 주요 페이지 5개, sitemap/robots, CSS/JS의 HTTP 200 응답 확인.
 - 공개 브라우저에서 인증서→유심→개통 링크, FAQ 15개, 요금제 선택을 검증함. 브라우저 오류 없음.
 - Vercel GitHub 로그인 연결 완료.
-- GitHub 자동 배포는 Vercel GitHub 앱 설치 권한 승인을 기다리는 중. 접근 저장소를 bangsooprepaid 1개로 선택해 두었으며 최종 Install은 실행하지 않음.
+- GitHub 자동 배포 연결 완료 (2026-10-18).
+- Vercel GitHub 앱의 접근 범위: ideabreaker01-code/bangsooprepaid 한 개. 설치 설정 화면에서 확인함.
+- 운영 브랜치: main. main에 push하면 Vercel 프로덕션 배포가 실행되어 bangsuphone.kr에 반영됨.
+- 다른 브랜치는 운영 사이트와 분리된 미리보기 배포로 확인할 수 있음.
 - 2026-10-18 도메인 전환 완료: https://bangsuphone.kr 에서 Vercel 배포를 제공함.
 - Cloudflare 네임서버 유지. apex/ www CNAME은 52a6706ab14e9de0.vercel-dns-017.com, DNS only로 설정.
 - 기존 bangsuphone-site Worker의 custom domain 바인딩만 해제했고 Worker 자체는 보존함.
